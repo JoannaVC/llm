@@ -19,19 +19,27 @@ Permite al usuario hacer preguntas por texto, voz (simulada) e imágenes (simula
 - Genere su API_KEY
 - Guarde su API_KEY
 - Abra su terminal
-- Copie y pegue el siguiente comando:
+- Copie y pegue los siguientes comandos:
 
-```python
+```bash
+python -m venv .venv
+```
+
+```bash
+source .venv/bin/activate
+```
+
+```bash
 export OPENAI_API_KEY="ingrese su API_KEY aquí"
 ```
-se debería ver así (EJEMPLO):
 
-```python
+Ejemplo de cómo debe verse:
+```bash
 export OPENAI_API_KEY="sk-7Fh3KpL9XQ2mWZ8T4RjA6C0YB"
 ```
 
 - Ejecute el archivo principal:
-```python
+```bash
 python main.py
 ```
 - 

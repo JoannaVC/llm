@@ -24,9 +24,11 @@ Permite al usuario hacer preguntas por texto, voz (simulada) e imágenes (simula
 ```python
 export OPENAI_API_KEY="ingrese su API_KEY aquí"
 ```
-se debería ver así:
+se debería ver así (EJEMPLO):
 
+```python
 export OPENAI_API_KEY="sk-7Fh3KpL9XQ2mWZ8T4RjA6C0YB"
+```
 
 - Ejecute el archivo principal:
 ```python
